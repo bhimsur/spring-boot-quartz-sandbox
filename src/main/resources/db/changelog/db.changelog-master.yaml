@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - property:
+      name: uuidType
+      value: varchar(36)
+      dbms: h2, mysql, mariadb, postgresql
